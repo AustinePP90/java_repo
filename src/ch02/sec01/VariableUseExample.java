@@ -8,8 +8,10 @@ public class VariableUseExample {
 		System.out.println(hour + "시간 " + minute + "분");
 
 		int totalMinute = (hour * 60) + minute;
-		System.out.println("총 " + totalMinute + "분");
+		System.out.println("총: " + totalMinute + "분");
 
+		int totalSecond = (hour * 3600) + (minute * 60);
+		System.out.println("총: " + totalSecond + "초");
 	}
 
 }

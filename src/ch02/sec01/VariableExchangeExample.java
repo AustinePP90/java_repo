@@ -7,9 +7,9 @@ public class VariableExchangeExample {
 		int y = 5;
 		System.out.println("x:" + x + ", y:" + y);
 
-		int temp = x;
-		x = y;
-		y = temp;
+		int temp = x; // x = 3;
+		x = y; // y = 5;
+		y = temp; // temp = x; , x = 3;
 		System.out.println("x:" + x + ", y:" + y);
 
 	}
