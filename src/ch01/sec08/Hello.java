@@ -3,7 +3,7 @@ package ch01.sec08;
 public class Hello {
 
 	public static void main(String[] args) {
-		System.out.println("Hello Hello Java08");
+		System.out.println("Me Three! You can say that again! Java08");
 
 	}
 
