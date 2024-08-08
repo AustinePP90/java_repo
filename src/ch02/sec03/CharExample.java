@@ -17,6 +17,7 @@ public class CharExample {
 
 //		char c = ''; // 공백 없는 작은 따옴표(') 두 개는 컴파일 에러가 발생
 		char c5 = ' '; // 공백 하나를 포함해야 함!
+		System.out.println(c5);
 	}
 
 }
